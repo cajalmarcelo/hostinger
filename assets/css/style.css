@@ -69,7 +69,12 @@ ul{
     padding: 10px;
     margin: 100px;
 }
-
+.texto span{
+    font-size: 18px;
+}
+.texto sup{
+    font-size: 40px;
+}
 .texto h1{
     font-size: 100px;
 }
@@ -285,4 +290,91 @@ ul{
     color: #fff;
     border-radius: 15px;
     cursor: pointer;
+}
+
+.webs{
+    width: 100%;
+    display: flex;
+    margin-top: 300px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.webs__texto h1{
+    font-size: 40px;
+    color: #2f1c6a;
+}
+
+.webs__texto h2{
+    color: #727586!important;
+}
+
+.webs__texto p{
+    padding: 1px;
+    width: 500px;
+    font-size: 20px;
+}
+
+.webs video{
+  width: 540px;
+  height: 350px;
+}
+
+.panel {
+}
+
+.panel__titulo{
+    margin-top: 30px;
+    font-size: 40px;
+    text-align: center;
+    color: #2f1c6a;
+}
+
+.panel__descripcion{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.panel__descripcion video{
+    width: 800px;
+    height: 550px;
+}
+
+.panel__texto{
+    width: 500px;
+}
+
+.panel__texto h2{
+    color: #2f1c6a;
+}
+.panel__texto p{
+    color: #727586;
+}
+.texto__caract{
+    margin-top: 50px;
+}
+
+.devolucion{
+    text-align: center;
+    margin: 100px;
+}
+
+.devolucion h1{
+    font-size: 40px;
+    color: #2f1c6a;
+}
+
+.devolucion p{
+    margin-top: 10px;
+    color: #727586;
+    font-size: 20px;
+}
+
+.devolucion button{
+    margin-top: 10px;
+    background-color: #2f1c6a;
+    color: #fff;
+    padding: 20px 50px;
+    border-radius: 15px;
 }
