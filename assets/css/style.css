@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgba(255, 145, 255, 0.7);
+}
+.header__logo{
+    width: 150px;
+    height: 30px;
+    margin-right: auto;
+}
+
+.header{
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar__menu{
+    margin: auto;
+    width: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+.menu__ul li a{
+    color: #000;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    font-size: 18px;
+}
+
+.menu__ul li a:hover{
+    color: blueviolet;
+}
+
+.menu__ul > li{
+    float: left;
+}
+
+.menu__ul img{
+    width: 20px;
+}
+
+.menu__ul li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    background-color: #fff;
+}
+
+.menu__ul li:hover > ul{
+    display: block;
+}
+
+.contenido{
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+}
+
+.texto{
+    text-align: center;
+    padding: 10px;
+    margin: 100px;
+}
+
+.texto h1{
+    font-size: 100px;
+}
+.texto h2{
+    font-size: 50px;
+}
+.texto h1 span{
+    font-size: 30px;
+}
+
+.temporizador{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.temporizador .bloque{
+    margin: 0px 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.temporizador .bloque div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #000;
+    font-size: 40px;
+    width: 100px;
+    height: 70px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.temporizador .bloque p{
+    font-size: 15px;
+    color: #000;
+}
+
+.boton{
+    background-color: #1d1e20!important;
+    padding: 20px 40px;
+    margin-top: 40px;
+    border-radius: 15px
+}
+
+.boton a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #fff;
+}
+
+.garantia{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.garantia p{
+    font-size: 20px;
+    padding: 5px;
+}
+
+.ingresar{
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.ingresar img{
+    width: 18px;
+}
+
+.carro{
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+}
+
+.carro img{
+    width: 18px;
+}
+.plan{
+    margin-top: 100px;
+    padding: 30px;
+}
+.plan__text{
+    text-align: center;
+    color: #2f1c6a;
+    font-size: 40px;
+}
+
+.planes{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.tabla{
+    height: 650px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-shadow: 0 0 4px 0 gray;
+    padding: 30px;
+    margin: 10px;
+}
+.tabla:hover{
+    transition: 0.2 all;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.tabla__titulo {
+    text-align: center;
+    color: #2f1c6a;
+}
+
+.tabla__oferta{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.tabla__oferta .ahorra{
+    color: #fff;
+    background-color: #2f1c6a;
+    border-radius: 5px;
+    padding: 3px 7px 3px;
+}
+
+.tabla__precio{
+    text-align: center;
+}
+
+.tabla__precio h2{
+    color: #2f1c6a;
+    font-size: 32px;
+}
+
+.tabla__precio button{
+    margin-top: 30px;
+    font-size: 19px;
+    background-color: #673de6;
+    padding: 12px 30px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.tabla__precio .renovar{
+    color: #333;
+    margin-top: 30px;
+}
+
+.tabla__descripcion{
+    padding: 10px;
+}
+
+.tabla__descripcion p{
+    margin-top: 10px;
+}
+
+.terminos{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.terminos a{
+    text-decoration: none;
+    color: #333;
+}
+
+.dominio{
+    margin-top: 200px;
+    text-align: center;
+}
+
+.dominio__titulo h1{
+    color: #2f1c6a;
+    font-size: 40px;
+}
+.dominio__titulo p{
+    margin-top: 10px;
+    padding: 20px 10px;
+    color: #2f1c6a;
+}
+
+.dominio__buscar{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.dominio__buscar input{
+    width: 550px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 1px solid #dadce0;
+    padding: 5px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.dominio__buscar button{
+    width: 200px;
+    height: 60px;
+    background-color: #727586!important;
+    color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+}
